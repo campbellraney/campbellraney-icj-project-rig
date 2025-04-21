@@ -2,20 +2,21 @@
 
 {% block page_title %}Resources{% endblock %}
 
-{% block page_description %}A list of other organization that are similar to ours and can help you with your adoption goals.{% endblock %}
+{% block page_description %}A list of other organizations that are similar to ours and can help you with your adoption goals.{% endblock %}
 
 {% block content %}
 <article class="container">
-  <h1>Meet some of our Animal Loving friends!</h1>
+  <h1>Meet some of our Animal Loving Friends!</h1>
   <p>Intro text here.</p>
   <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3">
     {% for resource in resources.resources %}
     <div class="col">
-     <div class="card h-100">
-      <div class="card-body">
-        <h5 class="card-title">{{ resource.resource_name }}</h5>
-        <p class="card-text">{{ resource.blurb }}</p>
-      </div>
+      <div class="card h-100">
+        <img src="/img/{{ resource.resource_name }}.jpg" class="card-img-top" alt="{{ resource.resource_name }}" style="height: 200px; object-fit: cover;">
+        <div class="card-body">
+          <h5 class="card-title">{{ resource.resource_name }}</h5>
+          <p class="card-text">{{ resource.blurb }}</p>
+        </div>
         <div class="card-footer">
           <a href="{{ resource.source }}" class="card-link">Learn More</a>
         </div>
