@@ -1,13 +1,72 @@
 {% extends '_templates/base.njk' %}
 
 {% block page_title %}WELCOME{% endblock %}
+
 {% block content %}
-<div class="container">
-  <div class="row">
-    <div class="col">
-      <h1>LALALALALA OLDER DOGS ARE THE BEST LALALA dont for get to add image here</h1>
-      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum non voluptatibus fugiat recusandae a nostrum aliquam saepe, iste exercitationem dolores repellendus nisi unde tenetur aut ab qui quisquam culpa. Nemo. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cumque dicta laudantium eligendi. Quasi, necessitatibus beatae eum repellat neque voluptas ad ex quidem ab voluptatibus accusamus autem voluptatem, atque recusandae aspernatur. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas vitae ea odio sed voluptate quam provident accusamus exercitationem eos cum excepturi fuga minus necessitatibus, possimus earum. Sequi cumque eveniet nulla. </p>
+<div class="container py-3">
+  <div class="row align-items-center">
+    <div class="col-md-6 mb-3">
+      <img src="/img/olddog.jpg" alt="Old Dog" class="img-fluid w-75 rounded shadow-sm">
+    </div>
+    <div class="col-md-6">
+      <h2 class="mb-3">Because Every Senior Dog Deserves a Forever Home</h2>
+      <p class="mb-2">At Diamonds in the Ruff, we’re on a mission to prove that old dogs can learn new tricks — like how it feels to be truly loved. We specialize in helping kind-hearted humans find their perfect match in wise, wonderful, and waggy-tailed senior dogs.</p>
+      <p class="mb-0">These golden oldies may have a little gray on their muzzle, but they’ve got endless love to give. Our mission is to make their final chapters the happiest — full of belly rubs, long naps, and lots of love.</p>
     </div>
   </div>
 </div>
+<article class="container my-4">
+  <h3 class="text-center mb-2">Meet This Week's Featured Dogs!</h3>
+  <p class="text-center mb-4">They are Ready to Mingle and Looking for a Lap to Call Home.</p>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
+      
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="/img/ATLAS.jpg" class="card-img-top" alt="Atlas" style="height: 200px; object-fit: cover;">
+          <div class="card-body text-center mt-auto">
+            <a href="https://supreme-telegram.../DOG%201.html" class="btn btn-primary">Meet Atlas</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="/img/KATORI.jpg" class="card-img-top" alt="Katori" style="height: 200px; object-fit: cover;">
+          <div class="card-body text-center mt-auto">
+            <a href="https://supreme-telegram.../DOG%202.html" class="btn btn-primary">Meet Katori</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="/img/TIMMY.jpg" class="card-img-top" alt="Timmy" style="height: 200px; object-fit: cover;">
+          <div class="card-body text-center mt-auto">
+            <a href="https://supreme-telegram.../DOG%203.html" class="btn btn-primary">Meet Timmy</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="/img/WADE.jpg" class="card-img-top" alt="Wade" style="height: 200px; object-fit: cover;">
+          <div class="card-body text-center mt-auto">
+            <a href="https://supreme-telegram.../DOG%204.html" class="btn btn-primary">Meet Wade</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col">
+        <div class="card h-100 d-flex flex-column">
+          <img src="/img/LULU.jpg" class="card-img-top" alt="Lulu" style="height: 200px; object-fit: cover;">
+          <div class="card-body text-center mt-auto">
+            <a href="https://supreme-telegram.../DOG%205.html" class="btn btn-primary">Meet Lulu</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</article>
 {% endblock %}

@@ -1,0 +1,34 @@
+{
+  "dogs": [
+    {
+      "slug": "Atlas",
+      "title": "Atlas",
+      "author": "<a href=\\\"https://www.petfinder.com/dog/atlas-64760954/tx/georgetown/williamson-county-regional-animal-shelter-tx993\">Find him at Williamson County Regional Animal Shelter</a>",
+      "blurb": "DOG 1 is awesome……"
+    },
+    {
+      "slug": "Katori",
+      "title": "Katori",
+      "author": "<a href=\\\"https://www.austinpetsalive.org/adopt/dogs/apa-a-4656\">Find her at Austin Pets Alive</a>",
+      "blurb": "DOG 2 is awesome……"
+    },
+    {
+      "slug": "Timmy",
+      "title": "Timmy",
+      "author": "<a href=\\\"https://austinhumanesociety.org/dogs/timmy/\">Find her at Austin Humane Society</a>",
+      "blurb": "DOG 3 is awesome……"
+    },
+    {
+      "slug": "DOG 4",
+      "title": "DOG 4 Name.",
+      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "blurb": "DOG 4 is awesome……"
+    },
+    {
+      "slug": "DOG 5",
+      "title": "DOG 5 Name.",
+      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "blurb": "DOG 5 is awesome……"
+    }
+  ]
+}

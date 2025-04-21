@@ -1,33 +1,33 @@
 {
   "dogs": [
     {
-      "slug": "DOG 1",
-      "title": "DOG 1 Name.",
-      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "slug": "atlas",
+      "title": "Atlas",
+      "author": "<a href=\"https://www.petfinder.com/dog/atlas-64760954/tx/georgetown/williamson-county-regional-animal-shelter-tx993\">Find him at Williamson County Regional Animal Shelter</a>",
       "blurb": "DOG 1 is awesome……"
     },
     {
-      "slug": "DOG 2",
-      "title": "DOG 2 Name.",
-      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "slug": "katori",
+      "title": "Katori",
+      "author": "<a href=\"https://www.austinpetsalive.org/adopt/dogs/apa-a-4656\">Find her at Austin Pets Alive</a>",
       "blurb": "DOG 2 is awesome……"
     },
     {
-      "slug": "DOG 3",
-      "title": "DOG 3 Name.",
-      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "slug": "timmy",
+      "title": "Timmy",
+      "author": "<a href=\"https://austinhumanesociety.org/dogs/timmy/\">Find him at Austin Humane Society</a>",
       "blurb": "DOG 3 is awesome……"
     },
     {
-      "slug": "DOG 4",
-      "title": "DOG 4 Name.",
-      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "slug": "wade",
+      "title": "Wade",
+      "author": "<a href=\"https://www.austinpetsalive.org/adopt/dogs/apa-a-62002\">Find him at Austin Pets Alive</a>",
       "blurb": "DOG 4 is awesome……"
     },
     {
-      "slug": "DOG 5",
-      "title": "DOG 5 Name.",
-      "author": "<a href=\\\"\\\">Find her at Austin Pets Alive</a>",
+      "slug": "lulu",
+      "title": "Lulu",
+      "author": "<a href=\"https://austinhumanesociety.org/dogs/lulu/\">Find her at Austin Humane Society</a>",
       "blurb": "DOG 5 is awesome……"
     }
   ]
