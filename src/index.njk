@@ -3,7 +3,8 @@
 {% block page_title %}WELCOME{% endblock %}
 
 {% block content %}
-<div class="container py-3">
+<!-- Added mb-1 to reduce bottom margin -->
+<div class="container py-3 mb-1">
   <div class="row">
     <div class="col-md-3 mb-3">
       <img src="/img/olddog.jpg" alt="Old Dog" class="img-fluid rounded">
@@ -15,58 +16,23 @@
     </div>
   </div>
 </div>
-<article class="container my-4">
+
+<!-- Changed my-4 to mt-2 mb-4 to reduce top spacing -->
+<article class="container mt-2 mb-4">
   <h3 class="text-center mb-2">Meet This Week's Featured Dogs!</h3>
   <p class="text-center mb-4">They are Ready to Mingle and Looking for a Lap to Call Home.</p>
-  <div class="container">
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
-      
-      <div class="col">
-        <div class="card h-100 d-flex flex-column">
-          <img src="/img/ATLAS.jpg" class="card-img-top" alt="Atlas" style="height: 200px; object-fit: cover;">
-          <div class="card-body text-center mt-auto">
-            <a href="https://supreme-telegram.../DOG%201.html" class="btn btn-primary">Meet Atlas</a>
-          </div>
+  
+  <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
+    {% for dog in kennel.dogs %}
+    <div class="col">
+      <div class="card h-100 d-flex flex-column">
+        <img src="img/{{ dog.slug }}.jpg" alt="{{ dog.title }}" class="card-img-top" style="height: 200px; object-fit: cover;">
+        <div class="card-body text-center mt-auto">
+          <h3><a href="dogs/{{ dog.slug }}.html">{{ dog.title }}</a></h3>
         </div>
       </div>
-
-      <div class="col">
-        <div class="card h-100 d-flex flex-column">
-          <img src="/img/KATORI.jpg" class="card-img-top" alt="Katori" style="height: 200px; object-fit: cover;">
-          <div class="card-body text-center mt-auto">
-            <a href="https://supreme-telegram.../DOG%202.html" class="btn btn-primary">Meet Katori</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 d-flex flex-column">
-          <img src="/img/TIMMY.jpg" class="card-img-top" alt="Timmy" style="height: 200px; object-fit: cover;">
-          <div class="card-body text-center mt-auto">
-            <a href="https://supreme-telegram.../DOG%203.html" class="btn btn-primary">Meet Timmy</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 d-flex flex-column">
-          <img src="/img/WADE.jpg" class="card-img-top" alt="Wade" style="height: 200px; object-fit: cover;">
-          <div class="card-body text-center mt-auto">
-            <a href="https://supreme-telegram.../DOG%204.html" class="btn btn-primary">Meet Wade</a>
-          </div>
-        </div>
-      </div>
-
-      <div class="col">
-        <div class="card h-100 d-flex flex-column">
-          <img src="/img/LULU.jpg" class="card-img-top" alt="Lulu" style="height: 200px; object-fit: cover;">
-          <div class="card-body text-center mt-auto">
-            <a href="https://supreme-telegram.../DOG%205.html" class="btn btn-primary">Meet Lulu</a>
-          </div>
-        </div>
-      </div>
-
     </div>
+    {% endfor %}
   </div>
 </article>
 {% endblock %}

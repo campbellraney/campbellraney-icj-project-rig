@@ -2,32 +2,32 @@
   "resources": [
     {
       "resource_name": "Austin Pets Alive",
-      "blurb": "Lorem ipsum dolor sit amet, aperiam deleniti urbanitas ut duo, libris semper luptatum sea in. Ius graeco omnium phaedrum et. Ad quas putant mel. Has omittam lobortis ei, eum ut everti iuvaret, vix verear regione ea. Mei liber ullamcorper ut, eos ad graeco fuisset, in eius graeci has.\n",
+      "blurb": "Austin Pets Alive! is a nonprofit animal rescue organization based in Austin, Texas, focused on saving the lives of vulnerable animals at risk of euthanasia. It operates a no-kill shelter and develops specialized programs for animals with medical or behavioral challenges. Since its founding in 2008, the organization has played a significant role in making Austin the largest no-kill city in the United States. APA! prioritizes high-risk groups such as neonatal kittens, parvo-positive puppies, and senior or injured pets. Its work includes adoption, fostering, veterinary care, and advocacy for animal welfare practices.",
       "source": "https://www.austinpetsalive.org/adopt?c_src=ads-google-sitelink-2024-adopt&c_src2=ads-google-evergreen&gad_source=1&gbraid=0AAAAAD52kIyVgY5TJ2bJ_8MapAxhVGLTs&gclid=CjwKCAjwtdi_BhACEiwA97y8BP5g2jqbYKjkSw_vzD1GFCG2t9Gp2sMOF7qZi705PwZ57G_R-77zAhoCVHoQAvD_BwE"
     },
     {
       "resource_name": "Austin Animal Center",
-      "blurb": "Lorem ipsum dolor sit amet, aperiam deleniti urbanitas ut duo, libris semper luptatum sea in. Ius graeco omnium phaedrum et. Ad quas putant mel. Has omittam lobortis ei, eum ut everti iuvaret, vix verear regione ea. Mei liber ullamcorper ut, eos ad graeco fuisset, in eius graeci has.",
+      "blurb": "Austin Animal Center (AAC) is the municipal shelter for the City of Austin and unincorporated Travis County, providing care to thousands of animals each year. As an open-intake, no-kill facility, it accepts all animals regardless of condition and maintains a live-outcome rate above 95 percent. AAC also offers adoption, foster, and rescue programs, along with animal protection and pet support services for the community.",
       "source": "https://www.austintexas.gov/services/adopt-a-pet"
     },
     {
       "resource_name": "Austin Humane Society",
-      "blurb": "Lorem ipsum dolor sit amet, aperiam deleniti urbanitas ut duo, libris semper luptatum sea in. Ius graeco omnium phaedrum et. Ad quas putant mel. Has omittam lobortis ei, eum ut everti iuvaret, vix verear regione ea. Mei liber ullamcorper ut, eos ad graeco fuisset, in eius graeci has.",
+      "blurb": "The Austin Humane Society is a no-kill, nonprofit animal shelter that has served the Austin community since 1952. It provides pet adoption services, spay/neuter programs, and community outreach, helping over 11,000 animals each year. The organization also runs specialized initiatives like the Community Cat Program and a Pet Food Pantry to support both animals and pet owners in need.",
       "source": "https://austinhumanesociety.org/adopt/"
     },
     {
       "resource_name": "PAWS Shelter of Central Texas",
-      "blurb": "Lorem ipsum dolor sit amet, aperiam deleniti urbanitas ut duo, libris semper luptatum sea in. Ius graeco omnium phaedrum et. Ad quas putant mel. Has omittam lobortis ei, eum ut everti iuvaret, vix verear regione ea. Mei liber ullamcorper ut, eos ad graeco fuisset, in eius graeci has.",
+      "blurb": "PAWS Shelter of Central Texas, founded in 1986, is a no-kill, nonprofit organization with campuses in Kyle and Dripping Springs, dedicated to caring for homeless, abandoned, and abused animals in the region. The shelter provides comprehensive adoption services, including medical care, vaccinations, microchipping, and spay/neuter procedures for all adoptable pets. PAWS also offers behavioral support through its PAW UP Training Program to assist adopters in providing lasting homes for their new companions.",
       "source": "https://pawsshelter.org/adopt/"
     },
     {
-      "resource_name": "Williamson County Regional Animal Center",
-      "blurb": "Lorem ipsum dolor sit amet, aperiam deleniti urbanitas ut duo, libris semper luptatum sea in. Ius graeco omnium phaedrum et. Ad quas putant mel. Has omittam lobortis ei, eum ut everti iuvaret, vix verear regione ea. Mei liber ullamcorper ut, eos ad graeco fuisset, in eius graeci has.",
+      "resource_name": "Williamson County Regional Animal Shelter",
+      "blurb": "The Williamson County Regional Animal Shelter (WCRAS) is a collaborative, no-kill facility serving Williamson County and the cities of Round Rock, Cedar Park, Hutto, and Leander. It provides shelter and care for lost, abandoned, and displaced animals, aiming to increase pet adoptions and reunite lost pets with their families. WCRAS offers adoption services, foster programs, and community initiatives like the Best Match program to ensure successful pet placements.",
       "source": "https://www.wilcotx.gov/164/Adopt"
     },
     {
       "resource_name": "Love And Puppy Paws Dog Rescue (LAPP Dog Rescue)",
-      "blurb": "Lorem ipsum dolor sit amet, aperiam deleniti urbanitas ut duo, libris semper luptatum sea in. Ius graeco omnium phaedrum et. Ad quas putant mel. Has omittam lobortis ei, eum ut everti iuvaret, vix verear regione ea. Mei liber ullamcorper ut, eos ad graeco fuisset, in eius graeci has.",
+      "blurb": "Love And Puppy Paws Dog Rescue (LAPP Dog Rescue) is a 100% foster-based, nonprofit organization dedicated to rescuing dogs from overpopulated shelters in Central and South Texas, including Austin and Corpus Christi. They accept dogs of all breeds, ages, and medical conditions, providing them with care in volunteer foster homes until they are ready for adoption. LAPP Dog Rescue emphasizes thoughtful matching between dogs and families, ensuring each dog finds a loving, permanent home.",
       "source": "https://www.loveandpuppypawsdogrescue.com/adopt-a-lapp-dog"
     }
   ]
