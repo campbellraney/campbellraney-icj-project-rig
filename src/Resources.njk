@@ -7,12 +7,12 @@
 {% block content %}
 <article class="container text-center">
   <h1>Meet some of our Animal Loving Friends!</h1>
-  <p>We’re proud to collaborate with a network of compassionate animal shelters across the region who share our commitment to giving senior dogs a second chance. These partners help us identify five featured dogs each week—those most in need due to age, time in the shelter, or health risks—so we can give them the visibility and love they deserve.</p>
+  <p>We're proud to collaborate with a network of compassionate animal shelters across the region who share our commitment to giving senior dogs a second chance. These partners help us identify five featured dogs each week—those most in need due to age, time in the shelter, or health risks—so we can give them the visibility and love they deserve.</p>
   <div class="row row-cols-1 row-cols-md-2 g-4 row-cols-lg-3">
     {% for resource in resources.resources %}
     <div class="col">
       <div class="card h-100">
-        <img src="/img/{{ resource.resource_name }}.jpg" class="card-img-top" alt="{{ resource.resource_name }}" style="height: 200px; object-fit: cover;">
+        <img src="img/{{ resource.resource_name }}.jpg" class="card-img-top" alt="{{ resource.resource_name }}" style="height: 200px; object-fit: cover;">
         <div class="card-body">
           <h5 class="card-title">{{ resource.resource_name }}</h5>
           <p class="card-text">{{ resource.blurb }}</p>
