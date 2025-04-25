@@ -3,32 +3,31 @@
 {% block page_title %}WELCOME{% endblock %}
 
 {% block content %}
-<!-- Added mb-1 to reduce bottom margin -->
-<div class="container py-3 mb-1">
-  <div class="row">
-    <div class="col-md-3 mb-3">
-      <img src="/img/olddog.jpg" alt="Old Dog" class="img-fluid rounded">
+<div class="container py-5 mb-4" style="background-color: #fef7f8; border-radius: 1rem;">
+  <div class="row align-items-center">
+    <div class="col-md-3 mb-3 text-center">
+      <img src="/img/olddog.jpg" alt="Old Dog" class="img-fluid rounded-circle shadow-sm" style="max-width: 200px;">
     </div>
     <div class="col-md-9">
       <h2 class="mb-3">Because Every Senior Dog Deserves a Forever Home</h2>
-      <p class="mb-2">At Diamonds in the Ruff, we’re on a mission to prove that old dogs can learn new tricks — like how it feels to be truly loved. We specialize in helping kind-hearted humans find their perfect match in wise, wonderful, and waggy-tailed senior dogs.</p>
-      <p class="mb-0">These golden oldies may have a little gray on their muzzle, but they’ve got endless love to give. Our mission is to make their final chapters the happiest — full of belly rubs, long naps, and lots of love.</p>
+      <p class="text-muted mb-2">At Diamonds in the Ruff, we're on a mission to prove that old dogs can learn new tricks — like how it feels to be truly loved. We specialize in helping kind-hearted humans find their perfect match in wise, wonderful, and waggy-tailed senior dogs.</p>
+      <p class="text-muted mb-0">These golden oldies may have a little gray on their muzzle, but they've got endless love to give. Our mission is to make their final chapters the happiest — full of belly rubs, long naps, and lots of love.</p>
     </div>
   </div>
 </div>
-
-<!-- Changed my-4 to mt-2 mb-4 to reduce top spacing -->
-<article class="container mt-2 mb-4">
-  <h3 class="text-center mb-2">Meet This Week's Featured Dogs!</h3>
-  <p class="text-center mb-4">They are Ready to Mingle and Looking for a Lap to Call Home.</p>
-  
+<article class="container mt-4 mb-5">
+  <h3 class="text-center mb-3"
+  >Meet This Week's Featured Dogs!</h3>
+  <p class="text-muted text-center mb-5">They are Ready to Mingle and Looking for a Lap to Call Home.</p>
   <div class="row row-cols-1 row-cols-md-2 row-cols-lg-5 g-4">
     {% for dog in kennel.dogs %}
     <div class="col">
-      <div class="card h-100 d-flex flex-column">
-        <img src="img/{{ dog.slug }}.jpg" alt="{{ dog.title }}" class="card-img-top" style="height: 200px; object-fit: cover;">
-        <div class="card-body text-center mt-auto">
-          <h3><a href="dogs/{{ dog.slug }}.html">{{ dog.title }}</a></h3>
+      <div class="card h-100 shadow-sm border-0 d-flex flex-column" style="border-radius: 1rem;">
+        <img src="img/{{ dog.slug }}.jpg" alt="{{ dog.title }}" class="card-img-top" style="height: 200px; object-fit: cover; border-top-left-radius: 1rem; border-top-right-radius: 1rem;">
+        <div class="card-body text-center d-flex flex-column">
+          <h5 class="mt-auto" style="color: #f4aab4;">
+            <a href="dogs/{{ dog.slug }}.html" class="text-decoration-none" style="color: #f4aab4;">{{ dog.title }}</a>
+          </h5>
         </div>
       </div>
     </div>
